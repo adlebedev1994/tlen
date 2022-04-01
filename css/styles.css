@@ -1,0 +1,31 @@
+html, body {
+  
+  min-height: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+/*-------------------------------------------*/
+h1 {
+  text-align:left;
+  font-size: 5.5em;
+  padding-left: 5%;
+  color: white;
+  position: fixed;
+  perspective: 200px;
+  transform: rotateX(350deg) rotateY(300deg);
+  transform-style: preserve-3d;
+  letter-spacing: 3px;
+  
+}
+p {
+  font-style: bold;
+  font-size: 3.3em;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+   position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0;
+}
